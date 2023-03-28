@@ -2,10 +2,9 @@ const sumAll = function() {
   
   if (arguments[0] < 0 || arguments[1] < 0) {
     return "ERROR"
-  }
-
- if (typeof parseInt(arguments[0]) !== "number" || typeof parseint(arguments[1])
-   !== "number") {
+  } 
+  
+  if (arguments[0] !== parseInt(arguments[0]) || arguments[1] !== parseInt(arguments[1])) {
    return "ERROR"
   }
 
